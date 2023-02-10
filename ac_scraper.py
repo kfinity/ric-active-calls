@@ -15,6 +15,7 @@ import time
 import os
 import ssl
 import urllib3
+import logging
 
 filename = "data/ric_active_calls.csv"
 ac_url = f"https://apps.richmondgov.com/applications/activecalls/Home/ActiveCalls?_={int(time.time())}"
